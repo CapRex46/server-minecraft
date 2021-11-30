@@ -1,5 +1,4 @@
-.container-fluid{
-    width: 100%;
+body{
     background: #343A40;
 }
 
@@ -7,11 +6,15 @@
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.icon{
+    border-radius: 15px;
 }
 
 .page{
     background-color: #e3f2fd;
-    width: 100%;
     border-radius: 15px;
 }
 
@@ -58,7 +61,8 @@
 }
 
 .maps img{
-    transition: .5s;
+    transition: 1s;
+    width: 600px;
 }
 
 .maps a{
@@ -69,9 +73,8 @@
 
 .maps img:hover{
     border-radius: 50%;
-    transition: .5s;
+    transition: 1s;
     opacity: 0.5;
     filter: grayscale(1) sepia(.3);
     transform: scale(.5);
 }
-
